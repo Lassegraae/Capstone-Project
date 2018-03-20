@@ -1,6 +1,5 @@
 body {
   font-size: 18px;
-
 }
 h1 {
   font-family: 'open sans', sans-serif;
@@ -257,7 +256,7 @@ ul {
 }
 .title {
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem 0 2rem 0;
 }
 .coursesdivider {
   display: flex;
@@ -275,11 +274,12 @@ ul {
 }
 .courses p {
   padding-top: 0.5rem;
-  margin-left: 1rem;
+  margin: 0 0 0 1rem;
 }
 .courses h2 {
   padding-top: 1rem;
   margin-left: 1rem;
+  margin: 0 0 0 1rem;
 }
 .courses .description {
   margin-bottom: 1.5rem;
@@ -317,7 +317,7 @@ ul {
 /* Thesis exhibit */
 
 .exhibitheader {
-  margin: 2rem auto;
+  margin: 2rem auto 2rem auto;
   text-align: center;
 }
 .exhibitfather {
@@ -346,7 +346,7 @@ ul {
 .casesimg, .casescontent {
   display: flex;
   flex-direction: column;
-  width:
+
 }
 .casesimg {
   width: 35%;
@@ -361,6 +361,9 @@ ul {
   flex-direction: column;
   justify-content: center;
   width: 65%;
+}
+.casescontent h2, p {
+  margin: 0.25rem 0;
 }
 
 .reimagine {
